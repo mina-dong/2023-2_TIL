@@ -1,6 +1,6 @@
 # 2023-2_TIL
 
-### Course List
+
 * 소프트웨어공학 Software engineering
 * 알고리즘 Algorithm
 * 컴퓨터시스템개론 Computer System 
