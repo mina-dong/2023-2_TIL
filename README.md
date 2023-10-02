@@ -26,3 +26,21 @@
 contributions 및 git push(레포지스토리에 변동된 사항이 제대로 올라옴)이 정상적으로 됌.
 이전에는 contributions만 반영되고 push는 제대로 안됐는데(=잔디밭만 채워지고 코드가 올라가지 않음)
 저 방법으로 push하니 정상적으로 반영됨.
+
+
+##  ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/mina-dong/2023-2_TIL.git'  
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. 
+ Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.  
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+현재 브랜치의 긑이 리모트 브랜치보다 뒤에 있으므로 업데이트가 거부됨 
+=> 원격저장소와 로컬저장소간 오류발생  
+=> rebase로 잔디관련(푸시는되는데 기여란에 초록색으로 보여지지 않은 에러) 시도하다가 브랜치위치 바뀌면서 오류가 생긴듯함
+=> git pull 오류생김
+=> --force로 강제 푸시
+
+1. git push https://{token}@github.com/사용자이름/깃이름.git **--force**
+
