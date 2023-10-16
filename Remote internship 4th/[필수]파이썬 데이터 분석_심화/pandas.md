@@ -66,3 +66,7 @@ train2 = pd.read_parquet('train.pqt')
 train2
 #cSV보다 속도가 더 빠름.
 ```
+
+# cuPF : gpu ... cupf는 사용하면 원본데이터가 변환됨. 
+setting - accelerator 에서 gpu p100으로 바꾸면, cpu사용을 줄이고 gpu사용을 함.   
+ 해당기능은 일주일에 33시간만 제공함.  
