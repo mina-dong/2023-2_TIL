@@ -76,3 +76,49 @@ difficulty of writing useful and efficient computer programs in the required tim
 - 매일 소웨엔지니어링 메소드를 사용안함
 
 => 결론, 그래서 (소웨엔지니어랑 메소드를 사용안한) 소프트웨어는 더 비싸고, 신뢰성도 안좋은 점을 갖게됨.
+
+
+## 2. 소프트웨어공학이란?
+
+### 엔지니어링이란
+- 다리, 길 기계 같은거 포함해서, **과학적인 원리**(scientific principles)에 기반하여 설계하고 짓는걸 의미함. (design and build)
+
+-  developing engineering은 엔지니어링 원리(engineering principles)를 개발하고, 문제를 해결하기 위한 스킬을 축적함.(accumulate)
+
+- 엔지니어링 원리를 적용하는건 상세한 문제를 해결하기 위한 procedures와 standard 표준을 만듦
+
+### 소프트엔지니어링(소프트웨어공학)
+소웨+엔지니어링 = 소웨 개발 프로세스에 엔지니어링 원리를 적용시키는 것.(엔지니어링은 과학적이고mathematical한 원리)
+
+=> 소프트웨어개발어려운거 해결, 개발 메소드를 통해 효율적이고 생산성 향상, 유저만족도 증가.
+
+- software engineering :  engineering discipline(분야, 규)은 그게 우리가 사용한 이후(after it has gone into use) 시스템을 보수하는 것을 통해 시스템 초기 사양부터 소프트웨어 프로덕션의 측을 다루고 있다.
+-  an engineering discipline that is concerned with all aspects of software production from the early stages of system specification through to maintaining the system after it has gone into use.
+-  engineering discipline : Using appropriate theories and methods 
+ to solve problems bearing in mind organizational and financial constraints(문제를 해결하기 위해 적절한 이론과 방법을 사용함-조직적, 재정적 제)
+- 기술적인 개발과정 뿐만 아니라, 프로젝트 관리나 도구, 소프트웨어를 지원하는 방법도 포함한다.
+
+### SW 엔지니어링의 중요성
+- Dependency of SW : 소프트웨어 의존도. 개별적 그리고 사회적으로 소프트웨어 시스템에 의존하고 있다(더 많이), 빠르고 경제적으로 시스템을 신뢰적이고 믿을만한 가치가 있게 생산produce해야한다.
+- Cost Saving : 비용절약. 개인 프로그래밍 프로젝트를 작성하는 것보다, 소프트웨어시스템으 ㄹ위해 메소드와 기술을 사용하는게 보통 더 저렴하고 더 길게 할 수 있다.  대부분의 시스템 유형에서 after it has gone into use(소프트웨어가 사용된 후), 대부분의 비용은 **시스템을 변경하는 비용**임
+
+## 3. 개발소프트웨어의 특징
+### Software Process Activities
+
+**Software specification (명세화) - Software development (개발) - Software validation (검증) - Software evolution (진화)**
+
+- 명세화 : where customers and engineers define the software that is to be produced and the constraints(제약) on its operation
+
+specification -> design ->coding(implementation) -> Verification -> maintenance -> specification...  = > software development  
+
+
+### General issues that affect SW 4가지
+- eterogeneity : 이질성
+  > 점진적으로, 시스템은 컴퓨터와 모바일 디바이스의 차이를 포함해 네트워크를 통해 분산된 시스템을 작동할 수 있는게 요구되고 있다.
+- usiness and social change
+  > 비즈니스와 사회는, 빠르게 변화하고 있다. 경제적인 성정과 새로운 기술의 결합때문에
+  > 그래서 빠르게 새로운 소프트웨어를 개발하고 변화할 필요가 있다.
+- Security and trust (보안과 신뢰)
+- Scale 규모
+
+## 4. Details of Software Engineering
