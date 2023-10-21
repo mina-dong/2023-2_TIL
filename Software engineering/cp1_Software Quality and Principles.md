@@ -122,3 +122,90 @@ specification -> design ->coding(implementation) -> Verification -> maintenance 
 - Scale 규모
 
 ## 4. Details of Software Engineering
+
+SW ? :  Computer programs and associated documentation.  
+좋은 sw의 속성? : required functionality and performance / 유저가 maintainable, dependable and usable.
+Software engineering is an engineering discipline that is concerned with all aspects of software production
+fundamental software engineering activities: 근본적인 소웨엔지니어링 액티비티. Software specification, software development, software validation and software evolution
+
+software engineering and computer science의 차이?   
+컴과는 이론이나 근본적인거에 초점을 맞춤.    
+ Software engineering is concerned with the practicalities(실용성) of developing and delivering useful software.
+소웨엔은 개발의 실용성과, 사용하기 쉬운 소프트웨어를 인수하는것delifverin걸 다룸.   
+
+### What are the key challenges facing(직면과제) software engineering?
+ Coping with increasing diversity, demands for reduced delivery times and developing trustworthy software.
+다양성 증가, 줄어든 시간, 신뢰성있는 소프트웨어 개발의 대항하기 
+
+### [ What are the costs of software engineering
+- Roughly 60% of software costs are development costs, 40% are testing costs.
+- For custom software, evolution costs often exceed development costs
+
+### best software engineering techniques and methods
+ While all software projects have to be professionally managed and developed,
+different techniques are appropriate for different types of system.
+
+### What differences has the web made to software engineering? ]
+- The web has led to the availability of software services and the possibility of 
+developing highly distributed service-based systems. 
+- Web-based systems development has led to important advances in 
+programming languages and software reuse
+
+
+### Software product
+1) Generic products : Stand-alone systems(독립적인 시스템) - 아무나 사고 아무나 원하는... - 툴, 프로그램
+2) Customized products : Software that is commissioned by a specific customer to meet their own needs.  임베디드, 트래픽모니터링 시스템 등
+
+### Product specification
+1) Generic products : 개발자에 의해서 결정(사내에서 의사결정.)
+2) Customized products : 의뢰를 받는 형식
+
+
+### Essential attributes of good Software
+Maintainability (유지보수성) Dependability and security (확실성과 보안성) Efficiency (효율성) Acceptability (수용성)
+
+## 5. Divergence(디버전스) of software 
+* 디버전스 : 컨버전스와 반대된 개념.융합된 기능중 불필요한일부를 제거하고, 전문성을 강화 시킴 ->사용자만족추구
+
+### Application types 
+Stand-alone applications :pc같은로컬컴퓨터에서 운영(run)함. 필수적으로 기능을 갖고 잇지만, 네트워크와의 연결은 필요하지 않음.   
+
+Interactive transaction-based applications:대화 기반 어플리케이션. pc나 터미널로 부터 허용되고, 컴퓨터에 제어되는식으로 실행됨. 이커머스(e-commerce)가 해당.  
+
+Embedded control systems :  하드웨어 디바이스 관리 및 제어하는 제어시스템(control systems). 수치적으로 말하면( Numerically), 다른 유형의 시스템보다 임베디드 시스템이 많을 것임.  
+
+Batch processing systems:  batch = 묶음, 무리 / 큰 묶음(large batces)의 데이터를 처리하기 위해 설계된 비즈니스 시스템임. 상응하는 output를 생성하기 위해 많은 개별 입력을 처리함.  
+
+Entertainment systems: 주로 개인 사용을 위해, 유저의 즐거움(entertain)위한 시스템  
+
+Systems for modelling and simulation: These are systems that are developed by scientists and engineers to model physical processes or situations, which include many, separate, interacting objects.
+
+Data collection systems: These are systems that collect data from their environment using a set of sensors and send that data to other systems for processing. 
+
+[ Systems of systems (SoS):  These are systems that are composed of(~으로 구성된) a number of other software system
+
+
+## 6. 소프트웨어공학윤리
+
+### Software engineering ethics
+- Software engineering involves wider responsibilities than simply the application of technical skills
+- Software engineers must behave in an honest and ethically responsible way if they are to be respected as professionals
+- Ethical behaviour is more than simply upholding the law but involves following a set of principles that are morally(도덕적으로) correct
+
+### Issues of professional responsibility
+
+Confidentiality (비밀유지
+Competence (능력)
+Intellectual property rights (지적재산권)
+Computer misuse (컴퓨터 남용
+
+### ACM / IEEE Code of Ethice
+- The professional societies in the US have cooperated to produce a code of ethical practice
+- Members of these organisations sign up to the code of practice when they join.
+- The Code contains eight Principles related to the behaviour of and decisions made by professional software engineers,including practitioners, educators, managers, supervisors and policy makers, as well as trainees and students of the profession.
+
+
+소프트웨어공학 윤리강령(우리말)
+http://sigsoft.or.kr
+
+
