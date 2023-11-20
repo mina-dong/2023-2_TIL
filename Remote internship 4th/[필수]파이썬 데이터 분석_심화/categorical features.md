@@ -66,6 +66,7 @@ model.feature_imoportances_
 합치면 1이 됨! feautre_importance 를 정렬(sortd)를 한다음, 오름차순으로 정렬해서 일부값을 가져온다
 => 이때 어디에서 어떻게 값을 가져올까? 
 sotring결과의 index를 가져오는 argsort. 사용할때 뒤에서부터 가져오면 된다.
+
 ```
 top15 = model.feature_importance_.argsort()[-15:]
 model.feature_names_in_[top15]

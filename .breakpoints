@@ -3,9 +3,9 @@
     "Computer System/cp7_Programming Languages.md": [
       {
         "id": "6ee1bb40-e40b-4d3a-a406-92f16adb29ca",
-        "line": 21,
-        "version": 705,
-        "index": 363
+        "line": 20,
+        "version": 2102,
+        "index": 362
       }
     ],
     "Remote internship 4th/[공통필수]_데이터리터러시/chapter1-5.md": [
@@ -22,6 +22,14 @@
         "line": 1,
         "version": 0,
         "index": 0
+      }
+    ],
+    "Remote internship 4th/[필수]파이썬 데이터 분석_심화/categorical features.md": [
+      {
+        "id": "b4429db4-67bd-4069-a212-3216f76a56e7",
+        "line": 56,
+        "version": 2842,
+        "index": 1412
       }
     ]
   }
