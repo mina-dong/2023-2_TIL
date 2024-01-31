@@ -247,3 +247,36 @@ import { response } from 'express';
 ```
 
 입력하지도 않았던 import가 자동으로 입력되어 있어서 삭제처리했다.
+
+
+
+
+
+createError.js:16 
+ Uncaught (in promise) Error: Request failed with status code 504
+    at createError (createError.js:16:1)
+    at settle (settle.js:17:1)
+    at XMLHttpRequest.handleLoad (xhr.js:61:1)
+createError	@	createError.js:16
+settle	@	settle.js:17
+handleLoad	@	xhr.js:61
+...
+onDrop @uploadvideopage.js:53
+
+이어서 53줄 확인
+
+터미널내 오류
+Error: Cannot find module 'multer'
+
+ npm install --save multer
+
+재설치!
+
+npm cache verify
+
+code EEXIST 
+npm ERR! Refusing to delete
+
+-> which.cmd 삭제 후 multer 재설치
+
+해도 안되서 우선 보류.
